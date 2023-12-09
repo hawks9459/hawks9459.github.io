@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about-us {
+    background-color: white;
+}
+
+.events {
+    background-color:white ;
+}
+
+.sponsors {
+    background-color:white;
+}
+
+.robots {
+    background-color: #eee;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.team-member img {
+    max-width: 100px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.round-logo {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 80%; 
+}
+
+
+h2 + p + .image-gallery .gallery-item {
+    display: flex;
+    
+   
+align-items: center;
+    margin-bottom: 20px; /* Espaço entre as imagens e o próximo conteúdo */
+}
+
+h2 + p + .image-gallery .gallery-item img {
+    
+   
+width: 200px; /* Defina a largura desejada para as imagens */
+    margin-right: 10px; /* Espaço horizontal entre as imagens */
+}
+
+h2 + p + .image-gallery .gallery-item p {
+    text-align: center;
+}
+
+
+h3 + p + .image-gallery .gallery-item {
+    display: flex;
+    
+   
+align-items: center;
+    margin-bottom: 20px; /* Espaço entre as imagens e o próximo conteúdo */
+}
+
+h3 + p + .image-gallery .gallery-item img {
+    
+   
+width: 200px; /* Defina a largura desejada para as imagens */
+    margin-right: 10px; /* Espaço horizontal entre as imagens */
+}
+
+h3 + p + .image-gallery .gallery-item p {
+    text-align: center;
+}
+
+/* ... (seu estilo CSS existente) */
+
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h5 {
+    margin-bottom: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* ... (seu estilo CSS existente) */
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px; /* Ajuste conforme necessário */
+    margin-bottom: 10px; /* Espaçamento entre a logo principal e as logos secundárias */
+}
+
+.round-logo {
+    border-radius: 50%;
+}
+
+.sub-logos {
+    display: flex;
+    justify-content: space-around; /* Espaçamento igual entre as logos secundárias */
+    width: 100%; /* Para garantir que as logos ocupem toda a largura disponível */
+}
+
+.sub-logo {
+    max-width: 80px; /* Ajuste conforme necessário */
+    margin: 0 10px; /* Espaçamento entre as logos secundárias */
+}
+
+
+.image-gallery img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+
+
+.site-title {
+color: black; /* Substitua pela cor desejada usando o código hexadecimal, nome da cor, etc. */
+}
+
+/* Ou, se você quiser aplicar a cor diretamente à tag <h1> */
+
+head
+header h1 {
+    
+    
+color: black; /* Substitua pela cor desejada */
+}
+
+
+#about-us h2,
+#events h3,
+#sponsors h4,
+#robots h2,
+#team h5
+#contact h6 
+ {
+color: black; /* Substitua pela cor desejada usando o código hexadecimal, nome da cor, etc. */
+}
+
+.image-gallery p {
+color: black; /* Substitua pela cor branca desejada usando o código hexadecimal, nome da cor, etc. */
+}
+
+p {
+color: black; /* Código hexadecimal para a cor branca */
+}
+
+footer {
+color: white; /* Código hexadecimal para a cor branca */
+}
